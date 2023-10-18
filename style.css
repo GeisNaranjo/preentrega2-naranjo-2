@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "caveat", cursive;
+    color: #ffffff;
+}
+header img {
+    width: 100px;
+    background-color: rgb(253, 253, 253);
+    border-radius: 50%;
+}
+header { 
+    background-color: #9c0821;
+    width: 100%;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    align-items: center;
+}
+header ul{ 
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+header .menu-item a{ 
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    padding: 0px 20px;
+}
+#imagenFondo{
+    background-image: url(imagenes/fondo-pag.jpg);
+    background-size: cover;
+    padding: 300px;
+    width: 100%;
+    display: flex;
+}
+#imagenFondoSobreNosotros{
+    background-image: url(imagenes/fondo-pag.jpg);
+    background-size: cover;
+    padding: 400px 0px;
+    width: 100%;
+}
+.productos{
+    background-color: #0b121f;
+    border-radius: 10%;
+    width: 15%;
+    padding: 20px 20px;
+}
+.productos img{
+    width: 200px;
+    display: flex;
+    
+}
