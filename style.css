@@ -6,7 +6,7 @@
 }
 header img {
     width: 100px;
-    background-color: rgb(253, 253, 253);
+    background-color: rgb(255, 255, 255);
     border-radius: 50%;
 }
 header { 
@@ -49,13 +49,15 @@ header .menu-item a{
     width: 100%;
 }
 .productos{
+    margin-top: 150px;
     background-color: #0b121f;
-    border-radius: 10%;
+    border-radius: 05%;
     width: 15%;
     padding: 20px 20px;
 }
 .productos img{
+    padding-right: 100px;
     width: 200px;
-    display: flex;
-    
+    display: flex;    
 }
+
